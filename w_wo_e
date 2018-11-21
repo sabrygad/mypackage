@@ -1,0 +1,56 @@
+Created temporary directory: /tmp/pip-ephem-wheel-cache-g41fa2e4
+Created temporary directory: /tmp/pip-req-tracker-6j18732k
+Created requirements tracker '/tmp/pip-req-tracker-6j18732k'
+Created temporary directory: /tmp/pip-install-kz54li8h
+Processing /home/sabrygad/mypackage
+  Created temporary directory: /tmp/pip-req-build-rnhsztnc
+  Added file:///home/sabrygad/mypackage to build tracker '/tmp/pip-req-tracker-6j18732k'
+  Running setup.py (path:/tmp/pip-req-build-rnhsztnc/setup.py) egg_info for package from file:///home/sabrygad/mypackage
+    Running command python setup.py egg_info
+    running egg_info
+    creating pip-egg-info/mypackage.egg-info
+    writing pip-egg-info/mypackage.egg-info/PKG-INFO
+    writing dependency_links to pip-egg-info/mypackage.egg-info/dependency_links.txt
+    writing top-level names to pip-egg-info/mypackage.egg-info/top_level.txt
+    writing manifest file 'pip-egg-info/mypackage.egg-info/SOURCES.txt'
+    reading manifest file 'pip-egg-info/mypackage.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/mypackage.egg-info/SOURCES.txt'
+  Source in /tmp/pip-req-build-rnhsztnc has version 0.0.1, which satisfies requirement mypackage==0.0.1 from file:///home/sabrygad/mypackage
+  Removed mypackage==0.0.1 from file:///home/sabrygad/mypackage from build tracker '/tmp/pip-req-tracker-6j18732k'
+Installing collected packages: mypackage
+  Found existing installation: mypackage 0.0.1
+    Uninstalling mypackage-0.0.1:
+      Created temporary directory: /tmp/pip-uninstall-31lm63jc
+      Removing file or directory /home/sabrygad/.local/lib/python3.6/site-packages/mypackage.egg-link
+      Removing pth entries from /home/sabrygad/.local/lib/python3.6/site-packages/easy-install.pth:
+      Removing entry: /home/sabrygad/mypackage
+      Successfully uninstalled mypackage-0.0.1
+  Created temporary directory: /tmp/pip-record-qz35lpvm
+  Running setup.py install for mypackage: started
+    Running command /usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-req-build-rnhsztnc/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-qz35lpvm/install-record.txt --single-version-externally-managed --compile --user --prefix=
+    running install
+    running build
+    running build_py
+    running build_scripts
+    running install_lib
+    creating /home/sabrygad/.local/lib/python3.6/site-packages/mypackage
+    copying build/lib/mypackage/__init__.py -> /home/sabrygad/.local/lib/python3.6/site-packages/mypackage
+    copying build/lib/mypackage/module1.py -> /home/sabrygad/.local/lib/python3.6/site-packages/mypackage
+    byte-compiling /home/sabrygad/.local/lib/python3.6/site-packages/mypackage/__init__.py to __init__.cpython-36.pyc
+    byte-compiling /home/sabrygad/.local/lib/python3.6/site-packages/mypackage/module1.py to module1.cpython-36.pyc
+    running install_egg_info
+    running egg_info
+    writing mypackage.egg-info/PKG-INFO
+    writing dependency_links to mypackage.egg-info/dependency_links.txt
+    writing top-level names to mypackage.egg-info/top_level.txt
+    reading manifest file 'mypackage.egg-info/SOURCES.txt'
+    writing manifest file 'mypackage.egg-info/SOURCES.txt'
+    Copying mypackage.egg-info to /home/sabrygad/.local/lib/python3.6/site-packages/mypackage-0.0.1-py3.6.egg-info
+    running install_scripts
+    changing mode of /home/sabrygad/.local/bin/mypackage to 775
+    writing list of installed files to '/tmp/pip-record-qz35lpvm/install-record.txt'
+    Running setup.py install for mypackage: finished with status 'done'
+  Removing source in /tmp/pip-req-build-rnhsztnc
+Successfully installed mypackage-0.0.1
+Cleaning up...
+Removed build tracker '/tmp/pip-req-tracker-6j18732k'
